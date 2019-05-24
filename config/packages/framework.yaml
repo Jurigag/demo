@@ -2,7 +2,7 @@ framework:
     secret: '%env(APP_SECRET)%'
     csrf_protection: true
     http_method_override: true
-    trusted_hosts: ~
+    trusted_hosts: ['127.0.0.1', '46.101.228.41']
     session:
         # With this config, PHP's native session handling is used
         handler_id: ~
